@@ -1,0 +1,10 @@
+App(
+    appid="gpio_flashsos",
+    name="[LED] Flashlight SOS",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gpio_flashsos_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_icon="flashsos_10px.png",
+    fap_category="GPIO",
+)
